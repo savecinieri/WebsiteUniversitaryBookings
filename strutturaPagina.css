@@ -1,0 +1,62 @@
+html, body
+      {
+        margin: 0px;
+        padding: 0px;				
+        text-align: center;
+        background-color: #E3E3FF;				
+      }
+      #PageWrapper
+      {
+        width: 1024px;		/* larghezza del sito; impostare a 100% per un sito largo tutta la pagina del browser */
+	height: 100%;
+        margin: 0 auto;
+        text-align: left;
+      }
+      #Header
+      {
+        text-align: center;
+        background-color: #000000;
+        color: White;
+        padding: 20px;
+      }						
+      #Menu-Content-Wrap
+      {								
+        overflow: hidden;			/* 1/2 necessario per avere le colonne laterali della stessa altezza di quella centrale */
+      }
+      #Menu-Left
+      {
+        float: left;
+        width: 180px;
+        height: 100%;
+        background-color: #B8B8FF;
+        text-align: center;
+        
+        padding-bottom: 5000px;		/* 2/2 necessario per avere le colonne laterali della stessa altezza di quella centrale */
+        margin-bottom: -5000px;  	/* 2/2 necessario per avere le colonne laterali della stessa altezza di quella centrale */
+      }
+      #MainContent 
+      {
+        float: left;
+        height: 100%;				
+        padding-left: 5px;
+        padding-right: 5px;
+        min-height: 720px;			/* altezza minima del sito */
+        background-color: #FFFFFF;
+        width: 834px;				
+      }
+      #Footer 
+      {
+        clear: both;	/* manda a capo questo div */
+        background-color: #000000;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+      #MassimoOfferente
+      {
+	color: green;
+      }
+      #OffertaSuperata
+      {
+	color: red;
+      }
